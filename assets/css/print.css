@@ -1,0 +1,14 @@
+/* ============================================================
+   PRINT STYLES – Portfolio Lokman HIMRI
+   ============================================================ */
+@media print {
+  #navbar, #progress-bar, #back-top, .nav-mobile { display: none !important; }
+  body { background: white !important; color: #111 !important; }
+  body::before, body::after { display: none; }
+  section { padding: 2rem 0 !important; page-break-inside: avoid; }
+  .stage-body { display: block !important; }
+  .veille-section-body { display: block !important; }
+  a { color: #1d4ed8 !important; }
+  .hero-visual { display: none !important; }
+  .stage-card { border: 1px solid #ccc !important; box-shadow: none !important; }
+}
